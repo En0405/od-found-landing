@@ -94,13 +94,15 @@ button{
     font-weight: 900;
     color: #1F2937;
     margin-bottom: 64px;
+    text-align: center;
 }
 
 .cards{
     display: flex;
+    gap:8px;
     justify-content: space-between;
 }
-
+cards
 .card{
     width: 150px;
 }
@@ -114,4 +116,67 @@ button{
     color: #1F2937;
     text-align: center;
     font-weight: 400;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding-top: 100px;   
+    padding-bottom: 100px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-writer{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+.sing{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.sing-box{
+    background-color: #2b7cff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+    border-radius: 8px;
+}
+
+.sing-box p{
+    color: #f9faf8;
+}
+
+.sing-box button{
+    background-color: #2b7cff;
+    border-color: #f9faf8;
+    border: 2px solid;
+}
+
+.sing-box-text-title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sing-box-text{
+    margin: 0;
+    color: #28292c;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.footer{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
 }
