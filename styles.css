@@ -9,7 +9,8 @@ body{
     background: #1F2937;
 }
 
-.hero{
+.hero,
+.carrusel{
     padding-bottom: 100px;
     
 }
@@ -77,4 +78,40 @@ button{
 
 .header-menu li{
     color: #e5e7eb;
+}
+
+.slimestWidth{
+    padding-left: 280px;
+    padding-right: 300px;
+}
+
+.carrusel{
+    padding-top: 32px;
+}
+
+.carrusel h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 64px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 150px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-text{
+    margin-top: 8px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 400;
 }
